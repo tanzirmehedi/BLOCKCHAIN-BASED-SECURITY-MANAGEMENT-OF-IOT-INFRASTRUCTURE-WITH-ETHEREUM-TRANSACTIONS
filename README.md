@@ -1,9 +1,7 @@
-# IoT backend with Swarm and Ethereum smart contracts
+# IoT backend with Ethereum Transaction
 
-![Bether](https://github.com/kozyilmaz/bether/raw/master/readme/ethstats.png "Proof-of-concept IoT backend")
-
-### Using Ethereum + Swarm as an IoT backend
-* IoT gateways, which are relatively powerful LoRa/NB-IoT devices, may be used to push collected data to torrent-like ```Swarm``` file storage network via HTTP.
+### Using Ethereum Transaction of an IoT backend
+* IoT gateways, which are relatively powerful devices, may be used to push collected data to file storage network via HTTP.
 * Created file handles are stored in ```Ethereum``` blockchain using a smart contract named [vendor.sol](ethereum/vendor.sol).
 * By using ```Swarm``` as the storage service  and ```Ethereum``` blockchain as the file explorer, it is possible to create a generic backend for IoT device manufacturers.
 
